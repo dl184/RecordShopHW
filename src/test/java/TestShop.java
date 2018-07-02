@@ -1,5 +1,6 @@
 import Accessories.DrumSticks;
 import Accessories.GuitarStrings;
+import Interfaces.ISell;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,8 +9,8 @@ import static org.junit.Assert.assertEquals;
 
 public class TestShop {
 
-    DrumSticks drumSticks;
-    GuitarStrings guitarStrings;
+    ISell drumSticks;
+    ISell guitarStrings;
     Shop shop;
 
     @Before
